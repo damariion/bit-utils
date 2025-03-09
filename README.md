@@ -1,6 +1,6 @@
 # Bit Utils (Bitburner Utilities)
 
-Bit Utils is a collection of tools and utilities designed to enhance your scripting experience within the Bitburner game. This repository aims to provide a suite of modular and efficient tools, allowing you to focus on automation and optimization without reinventing the wheel.
+Bit Utils is a collection of utilities and exploits designed to enhance your scripting experience within the Bitburner game.
 
 ## Available Utilities
 ### minapi
@@ -10,7 +10,8 @@ Bit Utils is a collection of tools and utilities designed to enhance your script
 ```typescript
 import { API } from 'minapi/api.ts';
 
-export async function main(ns: NS) {
+export async function main(ns: NS)
+{
     // Create an API object
     let api = new API(ns);
 
@@ -19,12 +20,9 @@ export async function main(ns: NS) {
 }
 ```
 
-- **Generic Parameter (`<NS>`):** Specifies the type of API being called.
-- **First Parameter (`'fileExists'`):** The name of the Bitburner method to call.
+- **Generic Parameter (`<NS>`):** Specifies the API being called.
+- **First Parameter (`'fileExists'`):** The name of the API method to call.
 - **Subsequent Parameters:** Arguments required by the specified method.
-
-### More Utilities Coming Soon
-`minapi` is just the start! More tools and utilities are planned to further support your Bitburner scripts, focusing on automation, optimization, and ease of use.
 
 ## Installation
 Clone this repository into your Bitburner scripts directory:
