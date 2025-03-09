@@ -16,7 +16,7 @@ export async function main(ns: NS)
     let api = new API(ns);
 
     // Call utilizing the API's type
-    await api.call<NS>('fileExists', 'de4de', 'n00dles');
+    await api.call<NS>('fileExists', 'script.ts', 'n00dles');
 }
 ```
 
