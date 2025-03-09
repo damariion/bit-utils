@@ -2,7 +2,7 @@ export async function main(ns: NS)
 {   
     // initalization
     let res = new Object();
-    let loc = "bpsuite/exec/out.json";
+    let loc = "minapi/exec/out.json";
     
     // validation
     if (!ns.fileExists(loc))
