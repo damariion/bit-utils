@@ -28,5 +28,5 @@ export async function main(ns: NS)
 Clone this repository into your Bitburner scripts directory:
 
 ```bash
-git clone https://github.com/yourusername/bit-utils.git
+git clone https://github.com/damariion/bit-utils.git
 ```
