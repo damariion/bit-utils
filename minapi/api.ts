@@ -1,11 +1,11 @@
 export class API
 {
     // standard output
-    #out = "bpsuite/exec/out.json";
+    #out = "minapi/exec/out.json";
 
     // supported api's
-    #ns = "bpsuite/exec/nsapi.ts";
-    #hn = "bpsuite/exec/hnapi.ts";
+    #ns = "minapi/exec/nsapi.ts";
+    #hn = "minapi/exec/hnapi.ts";
 
     // only (required) api for file operations
     #_; constructor (ns: NS) { this.#_ = ns; }
