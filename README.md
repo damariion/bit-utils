@@ -2,6 +2,12 @@
 
 Bit Utils is a collection of utilities and exploits designed to enhance your scripting experience within the Bitburner game.
 
+## Installation
+Modules can be installed by referencing their directory name, leveraging the standardized `mod.def` (module definition) file for precise downloading. Be cautious when using this tool, as it will overwrite existing files on your system. This behavior can also be utilized to update modules, as the tool will replace old files with the latest version.
+```typescript
+run ldmod.ts <module>
+```
+
 ## Available Utilities
 ### minapi
 `minapi` is a utility that provides a dynamic API interface for interacting with Bitburner's built-in NS methods, utilizing the absolute minimum system memory per API call (hence the name, Minimal API).
