@@ -1,4 +1,0 @@
-https://github.com/damariion/bit-utils/tree/main/minapi/api.ts minapi/api.ts
-https://github.com/damariion/bit-utils/tree/main/minapi/exec/out.json minapi/exec/out.json
-https://github.com/damariion/bit-utils/tree/main/minapi/exec/nsapi.json minapi/exec/nsapi.ts
-https://github.com/damariion/bit-utils/tree/main/minapi/exec/hnapi.json minapi/exec/hnapi.ts
